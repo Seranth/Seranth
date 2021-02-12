@@ -24,7 +24,6 @@ jobs:
     - run: npm ci
     - run: npm run build
     - run: npm run generate
-    - run: npm test
     - uses: crazy-max/ghaction-github-pages@v2.2.0
       with:
         build_dir: dist
